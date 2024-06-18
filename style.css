@@ -1,0 +1,183 @@
+
+body {
+  margin: 0;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  color: #31533b;
+  background-color: black !important;
+  
+}
+#mainpage{
+
+  padding:20%;
+  height:500px;
+  font-size: xx-large;
+  color:#e3dcd6;
+  text-align: justify;
+  background-image: url('./spiderman.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+#code{
+  size:120px;
+}
+#skillbody{
+
+  background-image: url('https://wallpaperaccess.com/full/5369777.jpg');
+  background-repeat: no-repeat ;
+  background-size: cover;
+}
+#contactmebody{
+  background-image: url('https://i.pinimg.com/originals/c1/b2/80/c1b280dab458d1de4d0c90fa89036561.jpg');
+  background-repeat: no-repeat ;
+  background-size: cover;
+}
+#experiencebody{
+  background-image: url('https://i.pinimg.com/originals/e3/10/fb/e310fb0f22348530dd5ed0d9e531970a.jpg');
+  background-repeat: no-repeat ;
+  background-size: cover;
+}
+.section {
+  padding: 20px;
+  margin-top: 20px;
+  background: #fff1e6 ;
+  border-radius: 10px;
+}
+
+
+.container {
+  display: flex;
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+}
+
+
+header {
+  position:sticky;
+  top:0;
+  z-index: 1000;
+  background: #76ABAE;
+  color: #fff;
+  padding-top: 30px;
+  min-height: 70px;
+  border-bottom: #68829a 3px solid;
+  border-radius: 10px;
+}
+
+header .logo {
+  background-image: url('D:\projects\webdev\myProfile\WhatsApp Image 2024-06-15 at 17.57.34_dd504192.jpg');
+  float: left;
+  font-size: 24px;
+  text-transform: uppercase;
+}
+
+header nav {
+  float: right;
+  margin-top: 10px;
+}
+
+header nav ul {
+  list-style: none;
+  margin: 2px;
+  padding: 0;
+}
+
+header nav ul li {
+  display: inline;
+  margin-left: 5px;
+}
+
+header nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 5px 20px;
+  border-radius: 10px;
+}
+
+header nav ul li a:hover {
+  background: #080809;
+  text-decoration: underline;
+}
+
+
+
+#about:hover, #skills:hover, #projects:hover, #experience:hover {
+  transform: scale(1.05);
+  transition: transform 0.3s;
+}
+
+footer {
+  padding: 20px;
+  margin-top: 20px;
+  background: #333;
+  color: #fff;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.landing_page {
+  font-family: Nunito, sans-serif;
+  padding: 20px ;
+  padding-right:40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  font-size: large;
+}
+
+
+.profile-pic {
+  border-radius: 10%;
+  height: 200px;
+  width: 200px;
+  background-color: #333;
+  padding: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+
+}
+
+.contact-icons {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.contact-item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.contact-item img {
+  height: 30px;
+  width: 30px;
+  padding: 2px;
+}
+
+
+
+.contactus-head {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+#skillcontainer{
+  background-color: #91DDCF;
+  border-radius: 10px;
+  color:#F7F9F2;
+  padding-top: 20px;
+  padding-left: 40px;
+  min-height: 70px;
+  border-bottom: #68829a 3px solid;
+}
+.card-img-top{
+  outline-width: 2px;
+  width:150px;
+  height:150px;
+}
