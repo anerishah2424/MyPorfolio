@@ -1,4 +1,5 @@
 
+
 body {
   margin: 0;
   padding: 20px;
@@ -14,10 +15,11 @@ body {
   font-size: xx-large;
   color:#e3dcd6;
   text-align: justify;
-  background-image: url('./spiderman.jpg');
+  background-image: url('https://static.vecteezy.com/system/resources/previews/000/518/751/original/vector-black-triangular-abstract-texture-low-light-background.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
+
 }
 #code{
   size:120px;
@@ -180,4 +182,11 @@ footer {
   outline-width: 2px;
   width:150px;
   height:150px;
+}
+#logo{
+  width: 80px;
+  height: 40px;
+}
+.experience{
+ padding-left: 20px;
 }
